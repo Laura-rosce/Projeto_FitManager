@@ -2,6 +2,7 @@
 ## Descrição Geral
 - O sistema foi desenvolvido para gerenciar operações administrativas locais, como controle de frequência, pagamento e gestão de recepcionistas. Ele utiliza Node.js no backend com o framework Express e Prisma como ORM (Object-Relational Mapping). No frontend, há uma estrutura modular organizada em pastas para diferentes funcionalidades.
 - Desenvolvido pelo grupo: Gabriela de Sousa, Laura Roscelle e Letícia Rauane
+- Participação especial Vanilo Alexandre
 
 ## Funcionalidades Principais
 - Cadastro de Alunos : Interface para criação, leitura, atualização e exclusão de cadastros dos alunos.
