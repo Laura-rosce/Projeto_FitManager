@@ -61,6 +61,10 @@
 ## Amostra do sistema
 ![Captura de tela de 2025-01-13 09-12-46](https://github.com/user-attachments/assets/0e419c8d-b156-4eae-a197-076e8f648cf0)
 ![Captura de tela de 2025-01-13 09-32-49](https://github.com/user-attachments/assets/8f0f92fc-1a5c-49d8-99c6-6679d1c9ed2a)
+![image](https://github.com/user-attachments/assets/bca1c0b8-bd9e-473b-a542-d5e9fab0b9e8)
+![image](https://github.com/user-attachments/assets/2ee12207-4bae-4683-b349-cf9580eb0c51)
+![image](https://github.com/user-attachments/assets/258bc704-abdb-4f19-b6d5-df090388fc86)
+
 
 
 
