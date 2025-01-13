@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    overflow: hidden;
+    display: block;
+  }
+  
+  /* Estilização da barra lateral (sidebar - boostrap) */
+  .sidebar {
+    background-color: #13d4db;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+  } 
+    
+  .sidebar h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar .btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    border-radius: 40px;
+    height: 60px;
+    background-color: #9fedef;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .sidebar .btn:hover{
+    background-color: #0f9b9f;
+    color:#ffffff;
+  }
+  
+  .w-85 {
+    width: 85% !important;
+}
+
+  .custom-btn{
+    background-color: #dc3545;
+    color: white; 
+    font-weight: bold; 
+    border-radius: 20px; 
+    padding: 6px 30px; 
+    font-size: 15px;
+    border: none; /* Remove borda padrão */
+  }
+
+  .custom-btn {
+    color: white;
+    margin-right: 20px; 
+  }
+
+  .custom-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Estilização do Conteiner Dashboard*/
+  .content {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .content h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  } 
+
+  /* Container onde está o dashboard */
+  .chart-container {
+    border-radius: 20px;
+    max-width: 800px;
+    margin-left: 5px;
+  }
+  
+canvas {
+    background-color:#0f9b9f;
+    width: 100vh;
+}
+
+  .btnGrafico{
+    background-color: #213f49;
+    color: white; 
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px; 
+    padding: 6px 30px; 
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .label-ano {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .select-ano {
+    background-color: #ffffff;
+    color: #0f9b9f;
+    font-weight: bold;
+    border: 2px solid #0f9b9f;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .select-ano:focus {
+    outline: none;
+    border-color: #ffffff;
+    background-color: #0f9b9f;
+    color: white;
+  }
+  
+  .select-ano option {
+    background-color: white;
+    color: #0f9b9f;
+    font-weight: bold;
+  }
+  
+  .select-ano:hover {
+    background-color: #0f9b9f;
+    color: white;
+  }
+  .btnVoltar{
+    background-color: #121212;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 150px;
+  }
+
+  .form-floating{
+    font-size: 15px;
+    font-weight: bold;
+    color:#0a0a0a;
+  }
+
+  .form-control{
+    border-radius: 30px;
+    border:none;
+  }
+
+  .btn.btnForms{
+    background-color: #0ce4eb;
+    color:#0a0a0a;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+  }
+
+  .title{
+    margin-top: 70px; 
+    margin-left: 20%; 
+    font-size: 60px
+  }
+
+  .input-cpf {
+    width: 60%;
+  }
+
+  .btnPesquisa {
+    background-color: #0ce4eb;
+    color: #0a0a0a;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 6px 30px;
+  }
+
+  .search-box {
+    width: 100%;
+    max-width: 500px;
+    height: 45px;
+  }
+
+  .img-background {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .container{
+    margin-top: 100px;
+    margin-left: 80px;
+    padding: 5px;
+    display: flex;
+    align-items:first baseline;
+  }
+  .areaCinza{
+    width: 500px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    overflow-y: auto;
+  }
+
+  .scrollable-results {
+    max-height: 300px;      /* Ajuste a altura conforme necessário */
+    overflow-y: auto;       /* Permite o scroll vertical */
+    border-radius: 10px;    /* Borda arredondada */
+    border: 1px solid #ccc; /* Borda suave */
+    padding: 10px;          /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo personalizada */
+    
+    /* Para um efeito de rolagem suave */
+    scroll-behavior: smooth;
+}
+
+  /* Personalizando o estilo do scroll */
+  .scrollable-results::-webkit-scrollbar {
+      width: 8px; /* Largura da barra de rolagem */
+  }
+
+  .scrollable-results::-webkit-scrollbar-thumb {
+      background-color: #888; /* Cor do "thumb" (parte que desliza) */
+      border-radius: 10px;     /* Borda arredondada no thumb */
+      border: 2px solid #f1f1f1; /* Borda do thumb */
+  }
+
+  .scrollable-results::-webkit-scrollbar-thumb:hover {
+      background-color: #555; /* Cor do thumb quando o mouse passar por cima */
+  }
+
+  .scrollable-results::-webkit-scrollbar-track {
+      background: #f1f1f1; /* Cor de fundo da área de rolagem */
+      border-radius: 10px;  /* Bordas arredondadas no track */
+  }
+
+  .select{
+    display: flex;
+    align-items: end;
+    position: relative;
+    right: 20px;
+  }
+
+  .titulo-Freq{
+    background-color: #213f49a8;
+    color: white;
+    font: normal 20pt;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.466);
+    width: 325px;
+  }
+
+  .btnFre{
+    background-color: #213f49a8;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 30px;
+    height: 60px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.466);
+  }
+
+  .coluna-frequencia {
+    position: relative; /* Necessário para deslocamento */
+    top: -20px; /* Ajusta verticalmente, como no exemplo anterior */
+    left: 120px; /* Move a coluna para a direita */
+    z-index: 2; /* Garante que fique acima da imagem */
+  }
+  
+  @media (max-width: 768px) {
+    .coluna-frequencia {
+      top: 0; /* Remove o deslocamento vertical em telas pequenas */
+      left: 0; /* Recentraliza em telas menores */
+    }
+  }
+
+/*Estilização do exibir/busca do Recepcionista e Admin*/
+#resultsArea {
+  cursor: pointer;
+  
+}
+
+.result-item {
+  transition: background-color 0.3s ease;
+  border-radius: 15px;
+  margin-left: 0;
+}
+
+.result-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Clareia o fundo quando passar o mouse */
+}
+
+.result-item:active {
+  background-color: rgba(255, 255, 255, 0.3); /* Um fundo um pouco mais destacado quando clicado */
+}
+
+/*para colocar um tamanho padrão no comprimento dos campos de cadastro de aluno*/
+.area-cad-Aluno{
+  width: 150%;
+}

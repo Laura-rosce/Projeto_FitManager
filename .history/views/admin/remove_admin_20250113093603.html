@@ -1,0 +1,76 @@
+<!--ADMINISTRADOR PODE REMOVER RECEPCIONISTAS-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- Fonte da letra (Nunito) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    
+    <!-- Ícone da janela -->
+    <link rel="icon" href="../CSS/images/FM.png" type="image/x-icon">
+
+    <!-- Conexão com estilo -->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+
+    <div class="container-fluid p-0">
+        <!-- Row para conteúdo -->
+        <div class="row m-0">
+    
+           <!-- Coluna da imagem da esquerda (imagem 1) -->
+            <div class="col-md-4 position-relative p-0">
+                <!-- Botão de Voltar -->
+                <div class="position-absolute" style="top: 10px; left: 10px;">
+                    <button class="btn btnVoltar" onclick="window.location.href='area_admin.html'">
+                        <i class="bi bi-arrow-left"></i> Voltar
+                    </button>
+                </div>
+                
+                <!-- Imagem de fundo -->
+                <img src="../CSS/images/transicao2.png" class="img-background">
+            </div>
+
+            <!-- Coluna da área de busca -->
+            <div class="col-md-6 col-lg-8 d-flex flex-column justify-content-start align-items-center p-0">
+                <!-- Título -->
+                <div class="w-75 mt-5">
+                    <h1 class="title">Deletar</h1>
+                </div>
+
+                <!-- Barra de busca -->
+                <div class="w-100 text-center container" style="height: auto;">
+                    <div class="w-100">
+                        <div class="input-group search-box">
+                            <input type="text" id="campoPesquisa" class="form-control" placeholder="Pesquisar CPF..." aria-label="Pesquisar CPF">
+                            <button id = "pesquisar" class="btn btnPesquisa" type="button">Pesquisar</button>
+                        </div>
+                    
+                        <!-- Área cinza para exibição dos resultados -->
+                        <div id="areaResultado" class="bg-secondary p-3 text-white d-none areaCinza pt-5">
+                            <!-- Resultados serão adicionados aqui dinamicamente -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.umd.js.map" defer></script>
+    <script src="../JS/config.js"></script>
+    <script src="../JS/scripts_Admin.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/*Inicio tela Dados*/
+
+.col-md-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.infodados.Geral {
+  background-color: #0f9b9f;
+  border-radius: 20px; 
+  padding: 20px;
+  width: 100%; 
+  max-width: 800px; 
+  box-shadow: 3px 3px 10px rgba(170, 161, 161, 0.24);
+  color: white;
+}
+
+.iconDados {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.iconUser {
+  width: 90px; 
+  height: 90px;
+  position: relative;
+  left: -33vh;
+}
+
+.infordados .h1 {
+  position: absolute;
+  top: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.infordados {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  
+}
+
+.infordados h3 {
+  font-size: 15px;
+  margin-left: 90px;
+  background-color: #06484b81;
+  border-radius: 20px;
+  padding: 13px;
+  display: flex;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.infordados span {
+  font-weight: normal 6pt;
+  margin-left: 10px;
+}
+
+.campos {
+  background-color: #0f9b9f;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 10px rgba(170, 161, 161, 0.24);
+  color: white;
+}
+
+.iconUser {
+  width: 50px;
+  height: 50px;
+}
+
+/*Botão Registrar pagamento que está na tela do Recepcionista*/
+.pagar {
+  font-size: 15pt;
+  font-weight: bold;
+  color: black;
+  border-radius: 40px;
+  height: 50px;
+  background-color: #9fedef;
+  display: block;
+  border: none;
+  margin-left: 170px;
+}
+
+.pagar:hover{
+  background-color: #0f9b9f;
+  color:#ffffff;
+}
+
+/* Estilização do Editar do Recepcionista*/
+.edit-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #0f9b9f;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.edit-btn:hover {
+    background-color: #0c7a7d;
+}
+
+

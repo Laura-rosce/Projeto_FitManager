@@ -1,0 +1,159 @@
+/*Inicio da tela Registrar Pagamentos*/
+.geralPGT{
+    color: #f9fafb;
+    margin-top: 150px;
+}
+
+.camposGeral{
+    margin-bottom: 15px;
+}
+
+.camposPGT{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 480px;
+}
+
+.camposPGT input{
+    border-radius: 15px;
+    background-color: #f9fafb;
+    color: #121212;
+    border-style: none;
+}
+
+.cpfpg{
+    margin-left: 114px;
+}
+
+.dtpg{
+    margin-left: 7px;
+}
+
+.cpfname{
+    margin-left: 70px;
+}
+
+.geralPGT button{
+    margin-left: 15px;
+    margin-top: 35px;
+    color: #f9fafb;
+    background-color: #10b9b1;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 180px;
+    height: 35px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.Popupgt {
+    position: absolute;
+    top: 540px;
+    left: 75%;
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    background-color: #880707;
+    color: #f9fafb;
+    border-radius: 15px;
+}
+
+.Popupgt h3{
+    background-color: #880707;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+/*Final da tela registrar Pagamentos*/
+
+/*Inicio tela Pendencia de pagamento*/
+
+.geral{/* Classe geral*/
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.geral h1{/*Titulo da pagina*/
+    margin-top: 100px;
+    color: #f9fafb;
+    margin-left: 70px;
+}
+
+.infoAluno {
+    background-color: #f9fafb;
+    color: black;
+    height: 40px;
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.nomeTelefone {
+    display: flex;
+    justify-content: space-between; /* Nome à esquerda e telefone à direita */
+    align-items: center; /* Alinha verticalmente */
+    padding: 0 50px; /* Espaçamento interno opcional */
+    width: 100%; /* Garante que o bloco use a largura total */
+}
+
+.nomeAluno {
+    flex: 1; /* O nome ocupa o espaço restante */
+    text-align: left; /* Garante alinhamento à esquerda */
+    overflow: hidden; /* Evita que o nome ultrapasse o espaço */
+    text-overflow: ellipsis; /* Adiciona "..." se o nome for muito longo */
+    white-space: nowrap; /* Evita quebra de linha no nome */
+}
+
+.telefone {
+    width: 150px; /* Largura fixa para o telefone */
+    text-align: right; /* Alinha o telefone à direita */
+}
+
+.containerPendencias {
+    height: 340px; /* Ajuste conforme sua necessidade */
+    width: 600px;
+    overflow-y: auto; /* Permite o scroll vertical */
+    padding: 2px;
+    border: none;
+    margin-left: -30px;
+}
+
+.card_view{/*Bloco de componentes onde ira aparecer o nome do aluno e foto*/
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card_view img{/*Foto do aluno*/
+    height: 40px;
+    width: 45px;
+}
+
+.card_view button{/*Status do aluno*/
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(206, 57, 57);
+    border: none;
+    color:#f9fafb;
+    font-weight: bold;
+}
+
+
+.card_geral{/*Bloco geral*/
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+/*Final tela Pendencia de Pagamento*/

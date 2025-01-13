@@ -1,0 +1,126 @@
+<!--CADASTRO QUE ADMINISTRADOR FAZ DO RECEPCIONISTA P1-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- Adiciona fonte da letra (nunito)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    
+    <!-- Adiciona ícone a janela -->
+    <link rel="icon" href="../CSS/images/FM.png" type="image/x-icon">
+
+    <!-- Conexão com meu arquivo de estilização-->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+
+    <div class="container-fluid p-0">
+        <!-- Row para conteúdo -->
+        <div class="row m-0">
+    
+           <!-- Coluna da imagem da esquerda (imagem 1) -->
+            <div class="col-md-4 position-relative p-0">
+                <!-- Botão de Voltar -->
+                <div class="position-absolute" style="top: 10px; left: 10px;">
+                    <button class="btn btnVoltar" onclick="window.location.href='area_admin.html'">
+                        <i class="bi bi-arrow-left"></i> Voltar
+                    </button>
+                </div>
+                
+                <!-- Imagem de fundo -->
+                <img src="../CSS/images/transicao2.png" class="img-background">
+            </div>
+    
+            <!-- Coluna do Formulário -->
+            <div class="col-md-8 d-flex p-5 position-absolute" style="margin-left: 340px;">
+                <div class="w-100">
+                    
+                    <meu-titulo></meu-titulo>
+    
+                    <form id="cadastrarRecep" action="#" method="POST">
+                        <!-- Primeira coluna de campos (dados pessoais) -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="nome" placeholder=" " required>
+                                    <label for="nome">Nome completo*</label>
+                                </div>
+                                
+                                <div class="form-floating mb-4">
+                                    <input type="text" class="form-control" id="cpf" placeholder=" " required>
+                                    <label for="cpf">CPF*</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="email" placeholder=" " required>
+                                    <label for="email">Email*</label>
+                                </div>
+    
+                                <div class="form-floating mb-3">
+                                    <input type="tel" class="form-control" id="telefone" placeholder=" ">
+                                    <label for="telefone">Telefone</label>
+                                </div>
+    
+                            </div>
+    
+                            <!-- Segunda coluna de campos (usuário e senha) -->
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="usuario" placeholder=" " required>
+                                    <label for="usuario">Usuário*</label>
+                                </div>
+    
+                                <div class="form-floating mb-3 position-relative">
+                                    <input type="password" class="form-control" id="senha" placeholder=" " required>
+                                    <label for="senha">Senha*</label>
+                                    <button type="button" id="toggleSenha" class="btn btn-link-lg position-absolute" style="top: 50%; right: 10px; transform: translateY(-50%);">
+                                        <i class="bi bi-eye-slash" id="iconeOlho"></i>
+                                    </button>
+                                </div>
+                            
+                                <div class="form-floating mb-3 position-relative">
+                                    <input type="password" class="form-control" id="confSenha" placeholder=" " required>
+                                    <label for="confSenha">Confirmar senha*</label>
+                                    <button type="button" id="toggleConfSenha" class="btn btn-link-lg position-absolute" style="top: 50%; right: 10px; transform: translateY(-50%);">
+                                        <i class="bi bi-eye-slash" id="iconeOlhoConf"></i>
+                                    </button>
+                                </div>   
+                            </div>
+                        </div>
+    
+                        <!-- Botão de Submit -->
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button type="submit" class="btn btnForms w-50" >Cadastrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    
+            <!-- Coluna da imagem da direita (imagem 3) -->
+            <div class="col-md-4 p-0" style="margin-left: 433px;">
+                <!-- Imagem de fundo -->
+                <img src="../CSS/images/transicao3.png" style="width: 100%; height: 100vh;">
+            </div>
+    
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/config.js"></script>
+    <script src="../JS/web_Components.js" defer></script>
+    <script src="../JS/scripts_Admin.js" defer></script>
+    
+    <script src="../JS/script_formata_cpf.js" defer></script>
+</body>
+
+</html>

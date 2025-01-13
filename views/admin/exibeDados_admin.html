@@ -1,0 +1,71 @@
+<!--ADMIN TEM ACESSO AOS DADOS DO RECEPCIONISTA-->
+<!DOCTYPE html>
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitManager Recepcionista</title>
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- Adiciona fonte da letra (nunito)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    
+    <!-- Adiciona ícone a janela -->
+    <link rel="icon" href="../CSS/images/FM.png" type="image/x-icon">
+  
+    <!-- Conexão com meu arquivo de estilização-->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style_recep.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+    <div class="container-fluid p-0">
+        <!-- Row para conteúdo -->
+        <div class="row m-0">
+           <!-- Coluna da imagem da esquerda (imagem 1) -->
+            <div class="col-md-4 position-relative p-0">
+        
+                <div class="position-absolute" style="top: 10px; left: 10px;">
+                    <button class="btn btnVoltar" onclick="window.location.href='buscar_admin.html'">
+                        <i class="bi bi-arrow-left"></i> Voltar
+                    </button>
+                </div>
+
+                <div class="position-absolute d-flex " style="top: 60px; left: 10px;">
+                    <button class="btn btnVoltar" onclick="window.location.href='area_admin.html'">
+                        <i class="bi bi-house"></i> Início 
+                    </button>
+                </div>
+                
+                <img src="../CSS/images/transicao2.png" class="img-background"> 
+            </div>
+
+            <!-- Parte do cartão -->
+            <div class="col-md-5 d-flex justify-content-center align-items-center p-5">
+                <div class="w-200">
+                    <div class="infodados Geral" style="max-width: 740px; height: 460px; width: 200%; ">
+                        <div class="iconDados d-flex justify-content-center">
+                            <img class="iconUser m-2" src="../CSS/images/dados.png">
+                            <h1 class="infordados mt-4 mb-2 position-absolute">Dados</h1>
+                        </div>
+                        <div class="infordados p-1">
+                            <h3>NOME: <span id="nome"></span></h3>
+                            <h3>CPF: <span id="cpf"></span></h3>
+                            <h3>EMAIL: <span id="email"></span></h3>
+                            <h3>TELEFONE: <span id="telefone"></span></h3>
+                            <h3>USUÁRIO: <span id="usuario"></span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.umd.js.map" defer></script>
+    <script src="../JS/config.js"></script>
+    <script src="../JS/scripts_Admin.js" defer></script>
+  
+</body>
+</html> 

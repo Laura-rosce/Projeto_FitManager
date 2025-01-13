@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tituloInicio h3 {
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tituloInicio h1 {
+    font-size: 70pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+.buttonInicio {
+    margin-top: 20px;
+}
+
+.buttonInicio .btn {
+    font-size: 20pt;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 10px 30px;
+    background-color: #13d4db;
+    color: #121212;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 8px;
+    margin-inline: 30px;
+}
+
+.buttonInicio .btn:hover {
+    background-color: #0f9b9f;
+    color: #ffffff;
+}
+
+.position-absolute img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.col-md-3 img {
+    object-fit: cover;
+}
+
+/*Inicio tela Pendencia de pagamento*/
+
+.geral{/* Classe geral*/
+    margin-left: 60px;
+}
+
+.geral h1{/*Titulo da pagina*/
+    margin-top: 100px;
+    color: #f9fafb;
+}
+
+.nomeAluno{/*Nome onde irá aparecer o nome dos alunos*/
+    background-color: #f9fafb;
+    height: 30px;
+    width: 250px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card_view{/*Bloco de componentes onde ira aparecer o nome do aluno e foto*/
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.card_view img{/*Foto do aluno*/
+   
+    height: 40px;
+    width: 45px;
+}
+
+.card_view button{/*Status do aluno*/
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #00bcd4;
+    border: none;
+}
+
+
+.card_geral{/*Bloco geral*/
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+/*Final tela Pendencia de Pagamento*/
+
+/*Inicio da tela Registrar Pagamentos*/
+.geralPGT{
+    color: #f9fafb;
+    margin-top: 150px;
+}
+
+.camposGeral{
+    margin-bottom: 15px;
+}
+
+.camposPGT{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 480px;
+}
+
+.camposPGT input{
+    border-radius: 15px;
+    background-color: #f9fafb;
+    color: #121212;
+    border-style: none;
+}
+
+.cpfpg{
+    margin-left: 114px;
+}
+
+.dtpg{
+    margin-left: 7px;
+}
+
+.cpfname{
+    margin-left: 70px;
+}
+
+.geralPGT button{
+    margin-left: 15px;
+    margin-top: 35px;
+    color: #f9fafb;
+    background-color: #10b9b1;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 180px;
+    height: 35px;
+    cursor: pointer;
+    border-style: none;
+}
+/*Final da tela registrar Pagamentos*/

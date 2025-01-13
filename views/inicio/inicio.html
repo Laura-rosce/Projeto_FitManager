@@ -1,0 +1,59 @@
+<!--TELA INICIAL-->
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitManager</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- Conexão com meu arquivo de estilização-->
+    <link rel="stylesheet" href="../CSS/style_inicio.css">
+    <link rel="stylesheet" href="../CSS/style_brilho.css">
+
+    <!-- Adiciona ícone a janela -->
+    <link rel="icon" href="../CSS/images/FM.png" type="image/x-icon">
+
+    <!-- Adiciona fonte da letra (nunito)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+</head>
+
+<body class="d-flex justify-content-center vh-100">
+    <div id="glitter-container"></div>
+    <div class="container-fluid p-0">
+        <!-- Row principal com alinhamento e posição relativa -->
+        <div class="row m-0 position-relative">
+            <!-- Imagem da esquerda -->
+            <div class="col-md-3 col-lg-2 position-absolute start-0 top-50 translate-middle-y p-0" style="width: 350px; height: 100vh;">
+                <img src="../CSS/images/transicaoInicio.png" class="img-fluid">
+            </div>
+
+            <!-- Conteúdo central sobreposto -->
+            <div class="col-8 d-flex flex-column  position-absolute align-items-center text-center position-relative" style="z-index: 3; margin-top: 170px; margin-left: 40vh;">
+                <div class="tituloInicio">
+                    <h3>BEM-VINDO(A) AO</h3>
+                    <h1>FitManager</h1>
+                    <br />
+                </div>
+
+                <div class="buttonInicio">
+                    <button type="button" name="Administrador" class="btn btn-primary mb-2 " onclick="window.location.href='login_administrador.html'">Administrador</button>
+                    <button type="button" name="Recepcionista" class="btn btn-secondary mb-2" onclick="window.location.href='login_recepcionista.html'">Recepcionista</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 d-flex justify-content-center align-items-center p-0">
+                <!-- Imagem de fundo -->
+                <img src="../CSS/images/transicaoInicio2.png" style="width: 500px; height: 100vh; right:0px; margin-left: 300vh; ">
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/script_brilho.js"></script>
+</body>
+
+
+</html>
