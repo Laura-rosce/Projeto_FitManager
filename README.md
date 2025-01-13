@@ -56,12 +56,12 @@
 - A nomeação de controllers, repositorys e rotas referentes a cada identidade, referencia a lógica de pertencer aquela entidade, ou seja, açoes que acontecem com o administrador, recepcionista, aluno;
 - A nomeação da parte do FrontEnd (views) segue a mesma lógica;
 - Já a nomeação da parte da integração (diretório JS), segue a lógica das ações que cada entidade faz, por exemplo o scripts_Recep está ligado à pagina do Recepcionista, mas lá há o CRUD do aluno, pois o recepcionista faz isso. Enquanto que no scripts_Admin está ligado à página do Administador, e há o CRUD imparcial do Recepcionista, pois o administrador é responsável por gerenciar esse controle dos atendentes.
+- Ao cadastrar aluno, ja considera pago a primeira parcela do mês, o valor está declarado como variavel global no repository de aluno, sendo o padrão de 80;
 
 ## Amostra do sistema
-![image](https://github.com/user-attachments/assets/df3afb31-6dd3-4a34-add2-fa03d569926b)
-![image](https://github.com/user-attachments/assets/364ac045-4558-482f-ad52-82c2c8ba5ced)
-![image](https://github.com/user-attachments/assets/8d6a0f5f-0a06-4051-8d52-07c29b11763a)
-![image](https://github.com/user-attachments/assets/7ced7a5d-1cee-4dd6-8b7e-e0e1d524e634)
-![image](https://github.com/user-attachments/assets/eb13701d-b8f5-463f-835c-f262b54c7d8c)
+![Captura de tela de 2025-01-13 09-12-46](https://github.com/user-attachments/assets/0e419c8d-b156-4eae-a197-076e8f648cf0)
+![Captura de tela de 2025-01-13 09-32-49](https://github.com/user-attachments/assets/8f0f92fc-1a5c-49d8-99c6-6679d1c9ed2a)
+
+
 
 
